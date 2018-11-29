@@ -1,0 +1,259 @@
+.row > ul > .column > li{
+  list-style: none;
+}
+
+#wholeBody{
+  margin:0 10px 0 10px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+#header{
+  /*text-align: center;*/
+  background-color: black;
+  color: white;
+  padding:0px 10px 0px 10px;
+}
+
+#footer{
+  text-align:center;
+}
+
+#sideinfo{
+  float:right;
+  background-color: #f4f4f4;
+  width:58%;
+  border:2px #333 solid;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top:30px;
+}
+
+#headerpic{
+  animation: ease-in-out;
+}
+
+
+#spinicon {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+.nav-wrapper{
+  background-color: black;
+  width:100%;
+}
+
+.brand-logo{
+  left:10px;
+}
+
+.box {
+  width: 100%;
+  height: 658px;
+  cursor: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+#bg1 {
+    position: relative;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    background: url("Images/instructional designer3.jpg") no-repeat center;
+    background-size:cover;
+    transition: all .4s;
+  }
+
+  #bg2 {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: url("Images/instructional designer4.jpg") no-repeat center;
+      background-size:cover;
+      transition: all .4s;
+    }
+
+  #bg3 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: url("Images/instructional designer2.png") no-repeat center;
+        background-size:cover;
+        transition: all .4s;
+      }
+
+  .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.6);
+    opacity:0;
+    transition: all .3s;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    color: #f4f4f4;
+  }
+
+  .allProjects {
+      cursor: pointer;
+      padding: 10px 20px;
+      background: #204E7A;
+      color: #F2F2F2;
+      border: none;
+      font-size: 1em;
+      margin-top: 20px;
+      transition: all .4s;
+}
+  .allProjects:hover {
+       transform: translateY(-2px);
+       box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.2);
+      }
+
+
+  .content:hover {
+    transform: scale(1.2);
+    opacity:70;
+  }
+
+  .box:hover {
+    opacity: 1;
+  }
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+body{
+  font:16px Helvetica, Sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.6em;
+}
+
+h1{
+  word-spacing: normal;
+}
+
+h3{
+  font-size: 10;
+  font-weight:700;
+}
+
+a{
+  color: black;
+  text-decoration:none;
+}
+
+a:hover{
+  color:coral;
+}
+
+a:visited{
+  color:grey;
+}
+
+@media (min-width:760px){
+  .skillset{
+    display: flex;
+    justify-content: space-around;
+  }
+  .hobbies{
+    display:flex;
+  }
+  .row{
+    display: flex;
+    justify-content:space-around;
+  }
+  .row ul{
+    display: flex;
+    justify-content:center;
+  }
+}
+
+.column {
+  margin-top:25px;
+  padding-left:90px;
+  padding-right:100px;
+  background-color: #f4f4f4;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.skill-1{
+  background-color: #f4f4f4;
+  padding:16px;
+  border: 1px #ccc solid;
+  width:32%;
+}
+
+
+.hobby{
+  background-color: #f4f4f4;
+  padding:16px;
+  width:49%;
+  margin: 16px 10px;
+}
+
+
+
+.experience-1{
+  background-color: #f4f4f4;
+  padding:16px;
+  margin:16px 10px;
+}
+
+ /* change flex direction to column
+  .hobbies{
+    flex-diretion: column;}
+  } */
+
+/* .row > ul > .column > li{
+  list-style: none;
+/* } */
+
+.button{
+  background-color:#f4f4f4;
+  padding:5px 5px;
+  width:70px;
+}
+
+.button:hover{
+  cursor:pointer;
+}
+
+.fix-me{
+  right:50px;
+  position:fixed;
+  top:520px;
+}
+
+i{
+  margin-right: 20px;
+  animation: spin 4000 ease-in-out;
+}
+
+/*for hobby Carousel*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }

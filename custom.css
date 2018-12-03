@@ -38,7 +38,14 @@
 		-webkit-animation: rotation 2s infinite linear;
 }
 
+nav{
+    background-color: black;
+    margin:   0 20px;
+}
+
 .nav-wrapper{
+  /* padding-right: 10px !important;
+  margin-right: 10px !important; */
   background-color: black;
   width:100%;
 }
